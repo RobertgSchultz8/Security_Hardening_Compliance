@@ -4,7 +4,7 @@ mkdir -p health
 #check subsystems
 iostat > health/subsystems.log
 #check memory
-#I suppose you could also check this with "less /proc/meminfo"
+#I suppose you could also check this with "less proc/meminfo"
 cat /proc/meminfo > health/memstat.log
 #check cpu
 mpstat > health/cpu.log
