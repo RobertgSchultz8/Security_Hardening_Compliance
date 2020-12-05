@@ -13,9 +13,9 @@ pstree > health/processes.log
 #check network status
 uptime > health/netstatus.log
 #informs users where information can be found
-echo 'Subsystems info can be found with "less /health/subsystems.log".'
-echo 'Memory info can be found with "less /health/memstat.log".'
-echo 'CPU info can be found with "less /health/cpu.log".'
-echo 'Processes info can be found with "less /health/processes.log".'
-echo 'Network status info can be found with "less /health/netstatus.log".'
+echo 'Subsystems info can be found with "less health/subsystems.log".'
+echo 'Memory info can be found with "less health/memstat.log".'
+echo 'CPU info can be found with "less health/cpu.log".'
+echo 'Processes info can be found with "less health/processes.log".'
+echo 'Network status info can be found with "less health/netstatus.log".'
 echo 'When you are done viewing info, press "q".'
